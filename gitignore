@@ -1,0 +1,75 @@
+# ========================
+# Java
+# ========================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
+# ========================
+# Build output
+# ========================
+out/
+build/
+target/
+bin/
+dist/
+
+# ========================
+# IDE — IntelliJ IDEA
+# ========================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ========================
+# IDE — Eclipse
+# ========================
+.classpath
+.project
+.settings/
+.metadata/
+
+# ========================
+# IDE — VS Code
+# ========================
+.vscode/
+
+# ========================
+# Uploaded files (runtime)
+# ========================
+uploads/
+
+# ========================
+# Database credentials
+# IMPORTANT: never commit real credentials
+# ========================
+# DatabaseConnection.java is committed but
+# users must set their own credentials locally.
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
+
+# ========================
+# Exported reports (runtime)
+# ========================
+exports/
+
+# ========================
+# MySQL Connector JAR
+# (users download their own)
+# ========================
+lib/mysql-connector*.jar
